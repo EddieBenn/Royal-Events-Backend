@@ -8,7 +8,7 @@
     "dev": "cross-env NODE_ENV=development nodemon build/app.js",
     "build": "tsc",
     "start": "npx tsc & ts-node-dev ./src/app.ts",
-    "prod": "node build/app.js",
+    "deploy": "node build/app.js"
   },
   "dependencies": {
     "@types/request-promise": "^4.1.51",
