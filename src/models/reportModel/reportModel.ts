@@ -51,7 +51,8 @@ updatedAt: {
 
 },{
     sequelize: database,
-    tableName: 'Report'
+    tableName: 'Report',
+    schema: 'event_service'
 }
 )
 

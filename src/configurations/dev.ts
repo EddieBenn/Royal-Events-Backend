@@ -1,6 +1,6 @@
 
 
-const {DEV_PORT,
+const { DEV_PORT,
     DB_NAME,
     DB_USERNAME,
     DB_HOST,
