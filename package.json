@@ -1,7 +1,7 @@
 {
-  "name": "royal_events",
+  "name": "royal-events-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "license": "MIT",
   "scripts": {
     "prod": "cross-env NODE_ENV=production nodemon build/app.js",
