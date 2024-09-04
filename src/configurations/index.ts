@@ -8,7 +8,8 @@ const {
     DB_NAME,
     DB_USERNAME,
     DB_HOST,
-    DB_PASSWORD
+    DB_PASSWORD,
+    DB_SCHEMA
 } = config
 
 export const database = new Sequelize(
@@ -21,7 +22,8 @@ export const database = new Sequelize(
     dialect: "postgres",
     logging: false,
     dialectOptions: {
-        encrypt: true
+        encrypt: true,
+        searchPath: DB_SCHEMA,
     }
 }
 )

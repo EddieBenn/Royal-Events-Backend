@@ -126,6 +126,7 @@ User.init(
   {
     sequelize: database,
     tableName: "User",
+    schema: 'event_service'
   }
 );
 

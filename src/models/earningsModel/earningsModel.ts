@@ -80,7 +80,8 @@ updatedAt: {
 
 },{
     sequelize: database,
-    tableName: 'Earning'
+    tableName: 'Earning',
+    schema: 'event_service'
 }
 )
 
