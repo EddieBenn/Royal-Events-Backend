@@ -69,7 +69,6 @@ Order.init(
   {
     sequelize: database,
     tableName: 'Order',
-    schema: 'event_service'
   }
 );
 

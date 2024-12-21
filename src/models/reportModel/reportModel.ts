@@ -52,7 +52,6 @@ updatedAt: {
 },{
     sequelize: database,
     tableName: 'Report',
-    schema: 'event_service'
 }
 )
 
