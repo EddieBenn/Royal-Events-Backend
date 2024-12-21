@@ -81,7 +81,6 @@ updatedAt: {
 },{
     sequelize: database,
     tableName: 'Earning',
-    schema: 'event_service'
 }
 )
 

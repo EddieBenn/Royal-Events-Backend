@@ -52,7 +52,6 @@ updatedAt: {
 },{
     sequelize: database,
     tableName: 'Bank',
-    schema: 'event_service'
 }
 )
 

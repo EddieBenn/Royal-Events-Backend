@@ -68,7 +68,6 @@ updatedAt: {
 },{
     sequelize: database,
     tableName: 'Ticket',
-    schema: 'event_service'
 }
 )
 

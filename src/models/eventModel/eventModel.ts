@@ -158,7 +158,6 @@ updatedAt: {
 },{
     sequelize: database,
     tableName: 'Event',
-    schema: 'event_service'
 }
 )
 

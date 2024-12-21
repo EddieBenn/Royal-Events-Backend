@@ -68,7 +68,6 @@ updatedAt: {
 },{
     sequelize: database,
     tableName: 'Comment',
-    schema: 'event_service'
 }
 )
 
